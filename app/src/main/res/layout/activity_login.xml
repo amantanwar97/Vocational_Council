@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fdfdfd"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fdfdfd"
+    tools:context="com.example.user.vocational_council.Login">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#6e1a4b"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/login"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="25dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="login"
+                android:textColor="#f9f6f6"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="170dp"
+            android:layout_centerHorizontal="true"
+            android:elevation="35dp"
+            app:cardBackgroundColor="#f4d3e6"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <EditText
+                    android:id="@+id/e1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableStart="@drawable/ic_person_outline_black_24dp"
+                    android:hint="enter user name" />
+
+                <EditText
+                    android:id="@+id/e2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableStart="@drawable/ic_https_black_24dp"
+                    android:hint="enter password"
+                    android:inputType="textPassword" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="forgot_password"
+                android:textColor="#1f37ef"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="395dp"
+            android:layout_centerHorizontal="true"
+            app:cardBackgroundColor="#6e1a4b"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="30dp">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="SUBMIT"
+                android:textColor="#fcf9f9"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="Not Registered..Click Here?"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+</ScrollView>

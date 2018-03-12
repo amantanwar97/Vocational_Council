@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2689ef"
+    tools:context="com.example.user.vocational_council.Main4">
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="17dp"
+        android:background="@drawable/button"
+        android:text="NEXT"
+        android:textColor="#faf8f8"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/splash1" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:fontFamily="cursive"
+        android:text="It prepare you to work in various jobs, such as a trade, a craft, or as a technician. Vocational education is sometimes referred to as career education or technical education. "
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
